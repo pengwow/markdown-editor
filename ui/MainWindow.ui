@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <widget class="QMenu" name="menu_6">
+     <property name="title">
+      <string>导出到</string>
+     </property>
+     <addaction name="actionPdf"/>
+     <addaction name="actionHtml"/>
+     <addaction name="actionPng"/>
+    </widget>
+    <addaction name="action1"/>
+    <addaction name="actionDakai"/>
+    <addaction name="actionZuijin"/>
+    <addaction name="separator"/>
+    <addaction name="actionBaocun"/>
+    <addaction name="actionLingcunwei"/>
+    <addaction name="separator"/>
+    <addaction name="actionFasongdao"/>
+    <addaction name="menu_6"/>
+    <addaction name="actionDayin"/>
+    <addaction name="separator"/>
+    <addaction name="actionPianhaoshezhi"/>
+    <addaction name="separator"/>
+    <addaction name="actionTuichu"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>编辑</string>
+    </property>
+    <addaction name="actionChexiao"/>
+    <addaction name="actionChongzuo"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>查找</string>
+    </property>
+    <addaction name="actionDangqian"/>
+    <addaction name="actionQuanxiangmu"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>插入</string>
+    </property>
+    <widget class="QMenu" name="menu_7">
+     <property name="title">
+      <string>标题</string>
+     </property>
+     <addaction name="actionH1"/>
+     <addaction name="actionH2"/>
+     <addaction name="actionH3"/>
+     <addaction name="actionH4"/>
+     <addaction name="actionH5"/>
+     <addaction name="actionH6"/>
+    </widget>
+    <addaction name="action1_2"/>
+    <addaction name="action2"/>
+    <addaction name="separator"/>
+    <addaction name="action3"/>
+    <addaction name="menu_7"/>
+    <addaction name="action5"/>
+    <addaction name="action6"/>
+    <addaction name="action7"/>
+    <addaction name="action8"/>
+    <addaction name="action9"/>
+    <addaction name="action10"/>
+    <addaction name="action11"/>
+    <addaction name="action12"/>
+    <addaction name="separator"/>
+    <addaction name="action1_3"/>
+    <addaction name="action2_2"/>
+    <addaction name="action3_2"/>
+    <addaction name="separator"/>
+    <addaction name="action1_4"/>
+    <addaction name="action2_3"/>
+    <addaction name="action3_3"/>
+    <addaction name="action4_2"/>
+    <addaction name="separator"/>
+    <addaction name="action1_5"/>
+    <addaction name="action2_4"/>
+    <addaction name="separator"/>
+    <addaction name="action1_6"/>
+    <addaction name="action2_5"/>
+    <addaction name="action3_4"/>
+    <addaction name="action4_3"/>
+    <addaction name="separator"/>
+    <addaction name="action1_7"/>
+    <addaction name="action2_6"/>
+    <addaction name="action3_5"/>
+    <addaction name="action4_4"/>
+    <addaction name="action5_2"/>
+    <addaction name="action6_2"/>
+    <addaction name="action7_2"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionJianchagenxgin"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action1">
+   <property name="text">
+    <string>新建</string>
+   </property>
+  </action>
+  <action name="actionDakai">
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+  </action>
+  <action name="actionZuijin">
+   <property name="text">
+    <string>最近文档</string>
+   </property>
+  </action>
+  <action name="actionBaocun">
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </action>
+  <action name="actionLingcunwei">
+   <property name="text">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="actionFasongdao">
+   <property name="text">
+    <string>发送到</string>
+   </property>
+  </action>
+  <action name="actionDayin">
+   <property name="text">
+    <string>打印</string>
+   </property>
+  </action>
+  <action name="actionPianhaoshezhi">
+   <property name="text">
+    <string>偏好设置</string>
+   </property>
+  </action>
+  <action name="actionTuichu">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionPdf">
+   <property name="text">
+    <string>pdf</string>
+   </property>
+  </action>
+  <action name="actionHtml">
+   <property name="text">
+    <string>html</string>
+   </property>
+  </action>
+  <action name="actionPng">
+   <property name="text">
+    <string>png</string>
+   </property>
+  </action>
+  <action name="actionChexiao">
+   <property name="text">
+    <string>撤销</string>
+   </property>
+  </action>
+  <action name="actionChongzuo">
+   <property name="text">
+    <string>重做</string>
+   </property>
+  </action>
+  <action name="actionJianchagenxgin">
+   <property name="text">
+    <string>检查更新</string>
+   </property>
+  </action>
+  <action name="action1_2">
+   <property name="text">
+    <string>当前日期时间</string>
+   </property>
+  </action>
+  <action name="action2">
+   <property name="text">
+    <string>当前文件名</string>
+   </property>
+  </action>
+  <action name="action3">
+   <property name="text">
+    <string>Markdown</string>
+   </property>
+  </action>
+  <action name="action5">
+   <property name="text">
+    <string>加粗</string>
+   </property>
+  </action>
+  <action name="action6">
+   <property name="text">
+    <string>强调</string>
+   </property>
+  </action>
+  <action name="action7">
+   <property name="text">
+    <string>行内代码</string>
+   </property>
+  </action>
+  <action name="action8">
+   <property name="text">
+    <string>图片</string>
+   </property>
+  </action>
+  <action name="action9">
+   <property name="text">
+    <string>超链接</string>
+   </property>
+  </action>
+  <action name="action10">
+   <property name="text">
+    <string>引用</string>
+   </property>
+  </action>
+  <action name="action11">
+   <property name="text">
+    <string>有序列表</string>
+   </property>
+  </action>
+  <action name="action12">
+   <property name="text">
+    <string>无序列表</string>
+   </property>
+  </action>
+  <action name="action1_3">
+   <property name="text">
+    <string>分页符</string>
+   </property>
+  </action>
+  <action name="action2_2">
+   <property name="text">
+    <string>分节符</string>
+   </property>
+  </action>
+  <action name="action3_2">
+   <property name="text">
+    <string>分段符</string>
+   </property>
+  </action>
+  <action name="action1_4">
+   <property name="text">
+    <string>github</string>
+   </property>
+  </action>
+  <action name="action2_3">
+   <property name="text">
+    <string>代码块</string>
+   </property>
+  </action>
+  <action name="action3_3">
+   <property name="text">
+    <string>删除线</string>
+   </property>
+  </action>
+  <action name="action4_2">
+   <property name="text">
+    <string>Tasklist</string>
+   </property>
+  </action>
+  <action name="action1_5">
+   <property name="text">
+    <string>MultiMarkdown</string>
+   </property>
+  </action>
+  <action name="action2_4">
+   <property name="text">
+    <string>下划线</string>
+   </property>
+  </action>
+  <action name="action1_6">
+   <property name="text">
+    <string>PHP</string>
+   </property>
+  </action>
+  <action name="action2_5">
+   <property name="text">
+    <string>脚注</string>
+   </property>
+  </action>
+  <action name="action3_4">
+   <property name="text">
+    <string>脚注引用</string>
+   </property>
+  </action>
+  <action name="action4_3">
+   <property name="text">
+    <string>表格</string>
+   </property>
+  </action>
+  <action name="action1_7">
+   <property name="text">
+    <string>自定义</string>
+   </property>
+  </action>
+  <action name="action2_6">
+   <property name="text">
+    <string>高亮</string>
+   </property>
+  </action>
+  <action name="action3_5">
+   <property name="text">
+    <string>嵌入对象</string>
+   </property>
+  </action>
+  <action name="action4_4">
+   <property name="text">
+    <string>数学代码(行间)</string>
+   </property>
+  </action>
+  <action name="action5_2">
+   <property name="text">
+    <string>数学代码(行内)</string>
+   </property>
+  </action>
+  <action name="action6_2">
+   <property name="text">
+    <string>注释</string>
+   </property>
+  </action>
+  <action name="action7_2">
+   <property name="text">
+    <string>目录</string>
+   </property>
+  </action>
+  <action name="actionDangqian">
+   <property name="text">
+    <string>搜索当前</string>
+   </property>
+  </action>
+  <action name="actionQuanxiangmu">
+   <property name="text">
+    <string>搜索全部</string>
+   </property>
+  </action>
+  <action name="actionH1">
+   <property name="text">
+    <string>H1    #</string>
+   </property>
+  </action>
+  <action name="actionH2">
+   <property name="text">
+    <string>H2    ##</string>
+   </property>
+  </action>
+  <action name="actionH3">
+   <property name="text">
+    <string>H3    ###</string>
+   </property>
+  </action>
+  <action name="actionH4">
+   <property name="text">
+    <string>H4    ####</string>
+   </property>
+  </action>
+  <action name="actionH5">
+   <property name="text">
+    <string>H5    #####</string>
+   </property>
+  </action>
+  <action name="actionH6">
+   <property name="text">
+    <string>H6    ######</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
